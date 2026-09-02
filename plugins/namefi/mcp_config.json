@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "namefi": {
+      "serverUrl": "https://api.namefi.io/mcp"
+    }
+  }
+}
