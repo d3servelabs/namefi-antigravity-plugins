@@ -1,5 +1,21 @@
 {
   "$schema": "https://antigravity.google/schemas/v1/plugin.json",
   "name": "namefi",
-  "description": "Search, register, and manage domains and their DNS through the Namefi API (via the hosted Namefi MCP server), plus guided workflows for pointing a domain at a machine with no static IP (dynamic DNS, NAT port forwarding) and serving it over real HTTPS behind Caddy or Traefik."
+  "displayName": "Namefi: Instant Search",
+  "version": "1.0.0",
+  "description": "Brainstorm startup, business, and brand names, check domain availability instantly, and inspect public DNS records. No account or sign-in needed.",
+  "logo": "assets/namefi-icon.png",
+  "suggestedPrompts": [
+    "Suggest 10 names for my coffee subscription startup and check which .com domains are available.",
+    "Is mybakery.com taken? If yes, find five similar names that are available.",
+    "Check the MX, SPF, and DMARC records for namefi.io."
+  ],
+  "author": {
+    "name": "Namefi by D3Serve Labs Inc",
+    "url": "https://namefi.io"
+  },
+  "homepage": "https://namefi.io",
+  "repository": "https://github.com/d3servelabs/namefi-antigravity-plugins",
+  "license": "MIT",
+  "keywords": ["namefi", "domains", "availability", "dns", "startups", "branding"]
 }

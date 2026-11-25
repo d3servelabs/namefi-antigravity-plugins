@@ -1,7 +1,7 @@
 {
   "mcpServers": {
     "namefi": {
-      "serverUrl": "https://api.namefi.io/mcp"
+      "serverUrl": "https://api.namefi.io/mcp-instant"
     }
   }
 }
